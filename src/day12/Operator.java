@@ -13,10 +13,16 @@ public class Operator {
 
         System.out.println("-------------------");
 
-        //声名double变量
+
+        //声明double变量
         double d1=8.0;
         double d2=2.5;
         System.out.println("d1="+d1+"\nd2="+d2);
+        System.out.println("d1+d2="+(d1+d2));
+        System.out.println("d1-d2="+(d1-d2));
+        System.out.println("d1*d2="+(d1*d2));
+        System.out.println("d1/d2="+(d1/d2));
+
 
 
     }
