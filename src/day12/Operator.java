@@ -11,7 +11,7 @@ public class Operator {
         System.out.println("i1*i2="+(i1*i2));
         System.out.println("i1/i2="+(i1/(double)i2));
 
-        System.out.println("---------------------");
+        System.out.println("-------------------");
 
         //声名double变量
         double d1=8.0;
