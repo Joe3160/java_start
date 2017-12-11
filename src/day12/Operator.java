@@ -2,6 +2,8 @@ package day12;
 
 public class Operator {
     public static void main(String[] args) {
+
+        //基本运算符
         //声名变量
         int i1=7;
         int i2=2;
@@ -22,6 +24,16 @@ public class Operator {
         System.out.println("d1-d2="+(d1-d2));
         System.out.println("d1*d2="+(d1*d2));
         System.out.println("d1/d2="+(d1/d2));
+
+        //模运算符
+        //求两个整数相除的余数
+
+        System.out.println("-------------------");
+        int i3=9;
+        int i4=4;
+        System.out.println("i3="+i3+"\ni4="+i4);
+        System.out.println("i3%i4="+(i3%i4));
+
 
 
 
