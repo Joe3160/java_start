@@ -41,6 +41,10 @@ public class Demo {
         System.out.println(s6==s7);
 
         //3、字符串编辑
+        String aa="Hello";
+        aa+=" World";
+        System.out.println(aa);
+        
 
     }
 }
