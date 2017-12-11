@@ -26,14 +26,14 @@ public class Operator {
         System.out.println("d1/d2="+(d1/d2));
 
         //模运算符
-        //求两个整数相除的余数
+        //求两个整数相除的余数，不建议浮点型，结果不准备
 
         System.out.println("-------------------");
         int i3=9;
         int i4=4;
         System.out.println("i3="+i3+"\ni4="+i4);
         System.out.println("i3%i4="+(i3%i4));
-
+        //对于精度高的运算，需要用BigDecimal类型
 
 
 
