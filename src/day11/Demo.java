@@ -1,5 +1,4 @@
 package day11;
-
 public class Demo {
     public static  void main(String[] args){
         //1、字符串截取
@@ -44,6 +43,11 @@ public class Demo {
         String aa="Hello";
         aa+=" World !";
         System.out.println(aa);
+
+        int index_h=aa.indexOf("W");
+        System.out.println(index_h);
+
+        System.out.println(aa.indexOf('w'));
         
 
     }
