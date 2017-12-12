@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="159a9581-7a3a-4d7f-ae25-b443530fa688" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/day14/Demo.java" afterPath="$PROJECT_DIR$/src/day14/Demo.java" />
       <change beforePath="$PROJECT_DIR$/src/day15/Demo.java" afterPath="$PROJECT_DIR$/src/day15/Demo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/day15/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
               <folding>
                 <element signature="e#1710#1711#0" expanded="true" />
                 <element signature="e#1737#1738#0" expanded="true" />
@@ -81,7 +80,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
+    <option name="x" value="827" />
+    <option name="y" value="64" />
     <option name="width" value="1543" />
     <option name="height" value="914" />
   </component>
@@ -364,7 +364,7 @@
       <workItem from="1512961125106" duration="732000" />
       <workItem from="1512965221169" duration="7237000" />
       <workItem from="1512980902991" duration="7406000" />
-      <workItem from="1513052398964" duration="6666000" />
+      <workItem from="1513052398964" duration="6850000" />
     </task>
     <task id="LOCAL-00001" summary="运算符">
       <created>1512975550216</created>
@@ -450,14 +450,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513052782049</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day15">
+      <created>1513071657326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1513071657326</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35632000" />
+    <option name="totallyTimeSpent" value="35816000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="0" width="1543" height="914" extended-state="0" />
+    <frame x="827" y="64" width="1543" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -500,7 +507,8 @@
     <MESSAGE value="运算符" />
     <MESSAGE value="赋值运算符" />
     <MESSAGE value="逻辑运算符" />
-    <option name="LAST_COMMIT_MESSAGE" value="逻辑运算符" />
+    <MESSAGE value="day15" />
+    <option name="LAST_COMMIT_MESSAGE" value="day15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -652,7 +660,7 @@
     <entry file="file://$PROJECT_DIR$/src/day15/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="e#1710#1711#0" expanded="true" />
             <element signature="e#1737#1738#0" expanded="true" />
