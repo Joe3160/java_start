@@ -47,9 +47,17 @@ public class Demo {
         //3、三元运算符
         int score = 50;
         String result;
-        System.out.println("分种");
+        System.out.print("分数："+score+" 结果：");
         result = score >= 60 ? "及格" : "不及格";
         System.out.println(result);
+
+        System.out.println("-------------------------------");
+
+        //4、运算符的优先级
+        int i,j=100;
+        i=j++;
+        System.out.println(i);
+
 
 
     }
