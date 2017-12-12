@@ -39,7 +39,7 @@ public class Demo {
         //byte,int,char, byte, short, int, Character, Byte, Short, Integer, String(java 7+),enum
         //case 变量类型 与 switch 变量类型一致
         //case 变量类型不可重复
-        int day=3;
+        int day=6;
         switch (day){
             case 1:
                 System.out.println("星期一");
