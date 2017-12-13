@@ -20,6 +20,23 @@ public class Demo {
             j++;
         } while (j<=10);
 
+        System.out.println("---for--------");
+        //for(初始条件;条件;迭代运算)  {循环体}
+        //条件：boolean表达式，条件为真，执行循环体；为假，跳出循环
+
+        int ride=10;
+        int result=1;
+        for (i=1;i<=ride;i++) {
+            result*=i;
+            System.out.println(i+":"+result);
+        }
+        System.out.println(ride+"的阶乘是："+result);
+
+        System.out.println("_____________________");
+        for (int a=1,b;a<20;a++) {
+            b=a*a;
+            System.out.println(a+"的平方是"+b);
+        }
 
     }
 }
