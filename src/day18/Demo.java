@@ -38,6 +38,25 @@ public class Demo {
         System.out.println("string默认值：" + arr_string[0]);
         System.out.println("bool默认值：" + arr_bool[0]);
 
+        System.out.println("-------------------------------------");
+        int[] arr5=new int[3];
+        arr5[0]=2;
+        arr5[1]=4;
+        arr5[2]=6;
+        System.out.println(arr5[0]);
+
+        System.out.println("-------第二种初始化方式------------");
+        //第二种初始化方式
+        int[] arr6={1,3,5,7};
+        System.out.println(arr6[2]);
+
+        System.out.println("-----------------");
+        int[] arr7=new int[3];
+        int[] arr8={1,3,5,7,9};
+        for (int i=0;i<arr8.length;i++){
+            System.out.println(arr8[i]);
+        }
+
 
     }
 }
