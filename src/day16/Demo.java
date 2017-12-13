@@ -33,6 +33,7 @@ public class Demo {
         System.out.println(ride+"的阶乘是："+result);
 
         System.out.println("--------------------------");
+        //多个循环控制变量
         for (int a=1,b;a<20;a++) {
             b=a*a;
             System.out.println(a+"的平方是"+b);
