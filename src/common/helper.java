@@ -14,6 +14,19 @@ public class helper {
         System.out.println(")");
     }
 
+    public static void dump(int[][] arr){
+        System.out.println("int[][]array:"+arr.length+"(");
+        for (int i=0;i<arr.length;i++) {
+            System.out.printf("  ");
+            System.out.println("int[]array:"+arr[i].length+"(");
+            for (int j=0;j<arr[i].length;j++) {
+                System.out.println("    "+i+"=>"+arr[i][j]+",");
+            }
+            System.out.println("  ),");
+        }
+        System.out.println(")");
+    }
+
 
 
 
