@@ -32,19 +32,24 @@ public class helper {
 
 
     public static void dump(char var_char){
+
         System.out.println("char("+var_char+")");
     }
     public static void dump(byte var_byte){
+
         System.out.println("byte("+var_byte+")");
     }
 
     public static void dump(short var_short){
+
         System.out.println("short("+var_short+")");
     }
     public static void dump(int var){
+
         System.out.println("int("+var+")");
     }
     public static void dump(float var_float){
+
         System.out.println("float("+var_float+")");
     }
 
@@ -53,6 +58,7 @@ public class helper {
     }
 
     public static void dump(boolean bool){
+
         System.out.println("boolean("+bool+")");
     }
 
