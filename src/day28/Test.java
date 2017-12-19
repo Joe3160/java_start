@@ -28,6 +28,10 @@ public class Test {
         System.out.println("bar2.id="+bar2.id);
         System.out.println("bar3.id="+bar3.id);
         System.out.println("Bar.num="+Bar.num);
+    
+        System.out.println("----静态方法-----");
+        
+        Foo.hi();
         
         
         
