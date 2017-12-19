@@ -30,7 +30,7 @@ class Foo extends Bar{
 }
 
 /**
- * final修饰类
+ * 3、final修饰类
  * 该类不能做任何类的父类，
  * 类中所有方法自动被定义为final类型
  */
