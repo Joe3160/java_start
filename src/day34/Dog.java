@@ -1,12 +1,12 @@
 package day34;
 
 public class Dog extends Pet {
-    private String strain="dog";//品种
+    private String name="dog";//品种
 
     
     public void setName(){
-        System.out.println("*******");
-        super.setName(this.strain);//super调用父类方法
+        //System.out.println("*******");
+        super.setName(this.name);//super调用父类方法
     }
     
     public String getName(){

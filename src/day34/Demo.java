@@ -5,6 +5,13 @@ public class Demo {
         Dog dog=new Dog();
         String name=dog.getName();
         System.out.println(name);
+    
+        System.out.println("------------------");
+        Husky husky=new Husky();
+        String dog_name=husky.getName();
+        System.out.println(dog_name);
+        husky.something();
+        
         
     }
 }
