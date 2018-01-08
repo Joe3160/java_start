@@ -12,7 +12,7 @@ public class Demo {
         user.show5();
         
         String aa99 = "00";
-        if (aa99 == "00") {
+        if (aa99.equals("00")) {
             System.out.println("55a555");
             System.out.println("a123456789");
             System.out.println("55555");
