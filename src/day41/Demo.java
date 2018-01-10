@@ -12,10 +12,10 @@ public class Demo {
         outer.show();
 
         System.out.println("----------------------------");
-        Parent son=new Parent(){//一匿名字类继承父类Parent,并重写了show方法
-          public void show(){
-              System.out.println("这是子类的show()方法");
-          }
+        Parent son = new Parent() {//一匿名字类继承父类Parent,并重写了show方法
+            public void show() {
+                System.out.println("这是子类的show()方法");
+            }
         };
         son.show();
     }
