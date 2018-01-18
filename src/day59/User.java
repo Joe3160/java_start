@@ -11,6 +11,10 @@ public class User implements Runnable {
     }
     @Override
     public void run() {
-        printer.print(file,num);
+        //锁定打印机对象，让它单线程工作
+        synchronized (printer) {
+            printer.print(file,num);
+        }
+
     }
 }
